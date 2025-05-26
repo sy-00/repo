@@ -1,5 +1,66 @@
-@import "tailwindcss";
+body {
+    font-family: "Nunito", sans-serif;
+    background-color: blanchedalmond;
+}
 
-@theme {
-    --color-primary: #FF0000;
+#articles-list li {
+    list-style: none;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: rgb(236, 189, 69);
+}
+
+#article-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-self: center;
+    width: 20rem;
+}
+
+#article-form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+h1, h2, h3, p, address, time {
+    justify-self: center;
+}
+
+h2 {
+    color: white;
+}
+
+#add-article-header {
+    color: black;
+}
+
+.submit-button {
+    border: none;
+    color: white;
+    background-color: rgb(236, 189, 69);
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#sort-field {
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-end;
+}
+.select-header {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#sort-select, input, textarea {
+    border: none;
+    color: black;
+    background-color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5px;
 }
