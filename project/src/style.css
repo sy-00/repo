@@ -64,3 +64,13 @@ h2 {
     font-size: 16px;
     border-radius: 5px;
 }
+
+input:focus, textarea:focus {
+    box-shadow: 0 0 8px 2px rgb(236, 189, 69);
+    outline: none;
+}
+
+input, textarea {
+    margin-top: 7px;
+    transition: box-shadow 0.3s ease;
+}
